@@ -1,0 +1,201 @@
+
+  body {
+        font-size: 16px;
+        font-family: 'Trirong', serif;
+        font-family: 'Work Sans', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        color: #1C3144;
+    }
+
+    .fa-btn {
+        margin-right: 6px;
+    }
+
+    .btn{
+      font-family: 'Libre Franklin', sans-serif;
+    }
+
+    .navbar-default .navbar-brand{
+      color: #1C3144;
+    }
+
+
+.btn-success, .btn-danger{
+  background-color: black;
+  border-color: white;
+  color: white;
+  padding: 1em;
+}
+
+.navbar{
+  background-color: white;
+
+}
+
+.btn-success:hover, .btn-danger:hover{
+  background-color: #E90046;
+  border: white;
+}
+
+  .jumbotron{
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: black;
+  }
+
+  .jumbotron h1{
+    text-shadow: 0 .05em .05em #00bbe9;
+  }
+
+  h1, h2{
+    font-size: 1.5em;
+  }
+
+  div.panel-heading{
+    background-color: black !important;
+  }
+
+  .panel-default>.panel-heading{
+    color: white;
+  }
+
+ a:link, :visited {
+ 	color: #E90046;
+ 	text-decoration: none;
+ }
+
+ /*a:visited {
+ 	color: #00bbe9;
+  #324556
+ }*/
+
+ a:hover {
+ 	color: #ff3773;
+ }
+
+
+
+ .flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+ }
+
+ .item{
+  width: auto;
+  margin: 5px;
+ }
+
+.item1{
+  width: auto;
+  order:1;
+  margin: 5px;
+ }
+
+ .p2{
+  background-color: #1abc9c;
+  border-radius: 3px;
+  padding: 5%;
+  font-size: 1.75em;
+}
+
+.p3{
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 5%;
+  font-size: 1.75em;
+}
+
+.p4{
+  border-color: #EDEDED;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 3px;
+  font-size: 1.75em;
+  padding: 5%;
+}
+
+
+.p5 {
+  font-size: 1.75em;
+  border-color: #EDEDED;
+  border-style: solid;
+  border-width: 3px;
+  padding: 1.5%;
+  border-radius: 1.5px;
+ }
+
+   .p5:hover {
+    background-color: #EDEDED;
+  }
+
+.row{
+  padding-left: 2%;
+  padding-bottom: 2%;
+
+}
+.target {
+    animation: lightSpeedIn 1.5s;
+    -webkit-animation: lightSpeedIn 1.5s;
+}
+
+.lightSpeedIn {
+  -webkit-animation-name: lightSpeedIn;
+  animation-name: lightSpeedIn;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+
+@-webkit-keyframes lightSpeedIn {
+  from {
+    @-webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    @-webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+
+  80% {
+    @-webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+    opacity: 1;
+  }
+
+  to {
+    @-webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes lightSpeedIn {
+  from {
+    @-webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    @-webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+
+  80% {
+    @-webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+    opacity: 1;
+  }
+
+  to {
+    @-webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
