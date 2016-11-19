@@ -30,11 +30,15 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
     install Laravel
 
+    import the open_hours.sql db via phpmyadmin or via the cli, however you have your local dev environment set
+
     composer install
 
     php artisan migrate
 
     php artisan serve
+
+    make sure you are set using User: 'codelouisville'@'localhost' in phpmyadmin on the open_hours db
 
     You can update status, just via the db, and it will output to the page.
     The app is for simple hackerspace member tracking- so non members can
